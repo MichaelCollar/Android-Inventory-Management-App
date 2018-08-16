@@ -1,0 +1,122 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AddProductButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">@dimen/standard_space</item>
+        <item name="android:src">@drawable/add</item>
+    </style>
+
+    <style name="EmptyViewText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">@dimen/standard_space</item>
+        <item name="android:layout_margin">@dimen/standard_space</item>
+        <item name="android:src">@drawable/add</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="EmptyViewImage">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:src">@drawable/no_products</item>
+    </style>
+
+    <style name="ProductImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_margin">@dimen/standard_space</item>
+        <item name="android:padding">@dimen/standard_space</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">#fff</item>
+        <item name="android:src">@drawable/no_image</item>
+    </style>
+
+    <style name="LeftButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginLeft">@dimen/standard_space</item>
+    </style>
+
+    <style name="RightButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">@dimen/standard_space</item>
+    </style>
+
+    <style name="ProductText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="UnitText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="SellButtonList">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">@dimen/standard_space</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:focusable">false</item>
+        <item name="android:padding">@dimen/standard_space</item>
+        <item name="android:text">Sell</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="NameList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingBottom">@dimen/standard_space</item>
+        <item name="android:paddingRight">128dp</item>
+        <item name="android:paddingStart">@dimen/standard_space</item>
+        <item name="android:paddingTop">@dimen/standard_space</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="SmallTextList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/standard_space</item>
+        <item name="android:paddingStart">@dimen/standard_space</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="UnitList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/standard_space</item>
+        <item name="android:paddingEnd">@dimen/standard_space</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+</resources>

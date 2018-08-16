@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailsActivity">
+
+    <item
+        android:id="@+id/edit_product"
+        android:title="Edit Product"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/remove_product"
+        android:title="Remove Product"
+        app:showAsAction="never" />
+</menu>

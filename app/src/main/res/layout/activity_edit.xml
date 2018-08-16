@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:context="com.example.android.inventorymanagement.EditActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/no_image"
+            style="@style/ProductImage"
+            android:contentDescription="@string/product_image_desc" />
+
+        <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageButton
+                android:id="@+id/new_photo_button"
+                style="@style/LeftButton"
+                android:contentDescription="@string/new_photo_desc"
+                android:src="@drawable/baseline_add_a_photo_white_36" />
+
+            <ImageButton
+                android:id="@+id/choose_from_gallery_button"
+                style="@style/RightButton"
+                android:contentDescription="@string/from_gallery_desc"
+                android:src="@drawable/baseline_add_photo_alternate_white_36" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="@dimen/standard_space"
+            android:background="#ffffff"
+            android:padding="@dimen/standard_space">
+
+            <EditText
+                android:id="@+id/edit_product_name"
+                style="@style/ProductText"
+                android:hint="@string/product_name_hint"
+                android:inputType="textCapWords"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_product_name">
+
+                <EditText
+                    android:id="@+id/edit_quantity"
+                    style="@style/ProductText"
+                    android:hint="@string/product_quantity_hint"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/quantity_units"
+                    style="@style/UnitText"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/quantity_unit" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quantity">
+
+                <EditText
+                    android:id="@+id/edit_price"
+                    style="@style/ProductText"
+                    android:hint="@string/product_price_hint"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/price_units"
+                    style="@style/UnitText"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/price_unit" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                style="@style/ProductText"
+                android:layout_below="@+id/price"
+                android:hint="@string/supplier_name_hint"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edit_supplier_phone"
+                style="@style/ProductText"
+                android:layout_below="@+id/edit_supplier_name"
+                android:hint="@string/supplier_phone_hint"
+                android:inputType="phone" />
+
+        </RelativeLayout>
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Inventory Management</string>
+
+    <string name="no_products">It\'s empty here...</string>
+    <string name="add_first_product_hint">Click the button below to add a new product.</string>
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="details">Details</string>
+    <string name="choose_quantity">Choose Quantity</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_all_products">Do you want to remove all products?</string>
+    <string name="remove_product">Do you want to remove this product?</string>
+    <string name="yes">Yes, remove</string>
+    <string name="no">No, don\'t remove</string>
+    <string name="insert_failed">New data insert has failed</string>
+    <string name="insert_success">New data insert is successful!</string>
+    <string name="update_failed">Update has failed!</string>
+    <string name="update_success">Update is successful</string>
+    <string name="remove_failed">Removal has failed!</string>
+    <string name="remove_success">Removal was successful!</string>
+    <string name="unknown">Unknown</string>
+    <string name="discard_changes">Do you want to discard changes?</string>
+    <string name="yes_discard">Yes, discard changes</string>
+    <string name="no_edit">No, continue editing</string>
+    <string name="quantity_unit">pc.</string>
+    <string name="price_unit">$</string>
+
+    <string name="empty_field_toast">Fill all the text fields!</string>
+    <string name="wrong_phone_toast">Phone number can contain only digits.</string>
+    <string name="wrong_phone_length_toast">Phone number should consist of at least 7 digits.</string>
+
+    <string name="product_image_desc">Product Image</string>
+    <string name="new_photo_desc">New Photo</string>
+    <string name="from_gallery_desc">Choose From Gallery</string>
+    <string name="sell_button_desc">Sell</string>
+    <string name="add_button_desc">Add</string>
+
+    <string name="product_name_hint">Product Name</string>
+    <string name="product_quantity_hint">Quantity</string>
+    <string name="product_price_hint">Price</string>
+    <string name="supplier_name_hint">Supplier Name</string>
+    <string name="supplier_phone_hint">Supplier Phone</string>
+</resources>

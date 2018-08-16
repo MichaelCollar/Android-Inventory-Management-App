@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_name"
+            style="@style/NameList"
+            tools:text="Very Long Name Of The Best Graphics Card In The World" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_quantity"
+                style="@style/SmallTextList"
+                tools:text="123" />
+
+            <TextView
+                style="@style/UnitList"
+                android:text="@string/quantity_unit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_price"
+                style="@style/SmallTextList"
+                tools:text="999" />
+
+            <TextView
+                style="@style/UnitList"
+                android:text="@string/price_unit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sell_button"
+        style="@style/SellButtonList" />
+
+</RelativeLayout>

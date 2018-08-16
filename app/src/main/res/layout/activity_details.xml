@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:context="com.example.android.inventorymanagement.DetailsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/details_image"
+            style="@style/ProductImage"
+            android:contentDescription="@string/product_image_desc" />
+
+        <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <ImageButton
+                android:id="@+id/sell_button"
+                style="@style/LeftButton"
+                android:contentDescription="@string/sell_button_desc"
+                android:src="@drawable/baseline_remove_circle_white_36" />
+
+            <ImageButton
+                android:id="@+id/add_button"
+                style="@style/RightButton"
+                android:contentDescription="@string/add_button_desc"
+                android:src="@drawable/baseline_add_circle_white_36" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="@dimen/standard_space"
+            android:background="#ffffff"
+            android:padding="@dimen/standard_space">
+
+            <TextView
+                android:id="@+id/details_product_name"
+                style="@style/ProductText"
+                android:paddingBottom="@dimen/standard_space"
+                android:paddingTop="@dimen/standard_space"
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="Product Name" />
+
+            <RelativeLayout
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details_product_name"
+                android:paddingBottom="@dimen/standard_space">
+
+                <TextView
+                    android:id="@+id/details_quantity"
+                    style="@style/ProductText"
+                    tools:text="123" />
+
+                <TextView
+                    android:id="@+id/quantity_units"
+                    style="@style/UnitText"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/quantity_unit" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quantity"
+                android:paddingBottom="@dimen/standard_space">
+
+                <TextView
+                    android:id="@+id/details_price"
+                    style="@style/ProductText"
+                    tools:text="99" />
+
+                <TextView
+                    android:id="@+id/price_units"
+                    style="@style/UnitText"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/price_unit" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerColor"
+                android:layout_below="@id/price"
+                android:layout_marginBottom="16dp"/>
+
+        <RelativeLayout
+            android:id="@+id/supplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            >
+
+            <TextView
+                android:id="@+id/details_supplier_name"
+                style="@style/ProductText"
+                android:paddingBottom="@dimen/standard_space"
+                tools:text="Supplier Name" />
+
+            <TextView
+                android:id="@+id/details_supplier_phone"
+                style="@style/ProductText"
+                android:layout_below="@id/details_supplier_name"
+                android:paddingBottom="@dimen/standard_space"
+                tools:text="123456789" />
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="#fff"
+                android:textSize="@dimen/medium_text_size"
+                android:background="@color/colorPrimary"
+                android:text="Call"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inventorymanagement.MainActivity">
+
+    <ListView
+        android:id="@+id/products_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/empty_products_list"
+            style="@style/EmptyViewImage"
+            android:contentDescription="Logo" />
+
+        <TextView
+            android:id="@+id/empty_list_text"
+            style="@style/EmptyViewText"
+            android:layout_below="@+id/empty_products_list"
+            android:text="@string/no_products"
+            android:textSize="@dimen/large_text_size" />
+
+        <TextView
+            style="@style/EmptyViewText"
+            android:layout_below="@+id/empty_list_text"
+            android:text="@string/add_first_product_hint"
+            android:textSize="@dimen/medium_text_size" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_product_button"
+        style="@style/AddProductButton" />
+
+</RelativeLayout>
