@@ -18,10 +18,10 @@ Activities and features:
 - Button for the user to contact the supplier via an intent to a phone app using the Supplier Phone Number stored in the database
 - Options menu to edit or delete the product record
 
-<img src="http://cmsweb.pl/wp-content/uploads/2018/08/main_list_screen.png" width="320">
+<img src="https://whitelistnews.com/wp-content/uploads/2018/08/main_list_screen.png" width="320">
 
-<img src="http://cmsweb.pl/wp-content/uploads/2018/08/edit_screen.png" width="320">
+<img src="https://whitelistnews.com/wp-content/uploads/2018/08/edit_screen.png" width="320">
 
-<img src="http://cmsweb.pl/wp-content/uploads/2018/08/details_screen_change_quantity.png" width="320">
+<img src="https://whitelistnews.com/wp-content/uploads/2018/08/details_screen_change_quantity.png" width="320">
 
-<img src="http://cmsweb.pl/wp-content/uploads/2018/08/add_product_screen.png" width="320">
+<img src="https://whitelistnews.com/wp-content/uploads/2018/08/add_product_screen.png" width="320">
