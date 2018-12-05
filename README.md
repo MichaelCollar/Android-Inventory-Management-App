@@ -18,5 +18,5 @@ Activities and features:
 - Button for the user to contact the supplier via an intent to a phone app using the Supplier Phone Number stored in the database
 - Options menu to edit or delete the product record
 
-<img src="https://whitelistnews.com/wp-content/uploads/2018/08/main_list_screen.png" width="320"><img hspace="30"/><img src="https://whitelistnews.com/wp-content/uploads/2018/08/edit_screen.png" width="320">
-<img src="https://whitelistnews.com/wp-content/uploads/2018/08/details_screen_change_quantity.png" width="320"><img hspace="30"/><img src="https://whitelistnews.com/wp-content/uploads/2018/08/add_product_screen.png" width="320">
+<img src="http://schoolstyle.pl/wp-content/uploads/2018/12/InventoryManagement1.png" width="320"><img hspace="30"/><img src="http://schoolstyle.pl/wp-content/uploads/2018/12/InventoryManagement2.png" width="320">
+<img src="http://schoolstyle.pl/wp-content/uploads/2018/12/InventoryManagement3.png" width="320">
